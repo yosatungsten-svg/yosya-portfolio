@@ -2,13 +2,12 @@ const path = require("path");
 const fs = require("fs");
 const sharp = require("sharp");
 
-const SOURCE =
-  "C:\\Users\\yosa\\AppData\\Local\\Temp\\claude\\portfolio_inspect\\stitch_yosya_yodya_portfolio_portfolio\\img_7818.jpg\\screen.png";
+const SOURCE = path.join(__dirname, "..", "assets-source", "headshot-original.png");
 const OUT_DIR = path.join(__dirname, "..", "public", "img");
 
 async function run() {
   if (!fs.existsSync(SOURCE)) {
-    console.warn(`[prepare-image] source photo not found at ${SOURCE}, skipping.`);
+    console.warn(`[prepare-image] source photo not found at ${SOURCE}, skipping (using committed public/img output if present).`);
     return;
   }
   fs.mkdirSync(OUT_DIR, { recursive: true });
