@@ -47,8 +47,12 @@ function contact(content) {
     </div>
     <div class="md:col-span-5">
       <div class="bg-surface-container-low border border-outline-variant rounded-card p-xl h-full flex flex-col justify-center items-start">
-        <p class="font-serif text-headline-sm text-on-surface mb-lg">${c.email}</p>
-        <a href="mailto:${c.email}" class="inline-flex items-center justify-center min-h-[44px] bg-primary text-on-primary px-xl py-md rounded-full font-sans text-label-lg hover:bg-primary-container transition-colors">${c.ctaEmail}</a>
+        <span class="inline-flex items-center gap-xs px-md py-xs rounded-full bg-growth/10 text-growth font-sans text-label-md mb-lg">
+          <span class="w-1.5 h-1.5 rounded-full bg-growth animate-pulse"></span>
+          ${c.availability}
+        </span>
+        <p class="font-serif text-headline-sm text-on-surface mb-lg">${c.availabilityNote}</p>
+        <a href="mailto:${c.email}" class="inline-flex items-center justify-center min-h-[44px] bg-primary text-on-primary px-xl py-md rounded-full font-sans text-label-lg hover:bg-primary-container hover:-translate-y-0.5 transition-all">${c.ctaEmail}</a>
       </div>
     </div>
   </div>

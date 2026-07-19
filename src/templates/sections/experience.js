@@ -1,4 +1,4 @@
-const { accentBorderTop } = require("../accent");
+const { accentBorderTop, accentText } = require("../accent");
 
 function experience(content) {
   const { experience: e } = content;
@@ -19,7 +19,7 @@ function experience(content) {
           <p class="font-sans text-title-md text-on-surface">${r.title}</p>
         </div>
         <div class="md:col-span-8 md:col-start-5">
-          <h3 class="font-serif text-headline-sm text-on-surface mb-md">${r.company}</h3>
+          <h3 class="font-serif text-headline-sm text-on-surface mb-md transition-colors group-hover:${accentText[r.accent]}">${r.company}</h3>
           <p class="font-sans text-body-lg text-on-surface-variant mb-lg">${r.summary}</p>
           <ul class="space-y-sm font-sans text-body-md text-on-surface-variant border-l border-outline-variant pl-md">
             ${r.bullets.map((b) => `<li>${b}</li>`).join("")}

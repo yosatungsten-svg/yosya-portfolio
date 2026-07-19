@@ -1,7 +1,10 @@
 (function () {
   "use strict";
 
-  // Reveal-on-scroll
+  // Reveal-on-scroll. Belt-and-suspenders: an IntersectionObserver drives the
+  // nice staggered fade-in, but a max-delay fallback guarantees every section
+  // becomes visible regardless of scroll speed/pattern or observer timing, so
+  // content can never get stuck at opacity:0 for a real visitor.
   var revealEls = document.querySelectorAll(".reveal");
   if ("IntersectionObserver" in window && revealEls.length) {
     var observer = new IntersectionObserver(
@@ -13,10 +16,16 @@
           }
         });
       },
-      { threshold: 0.12, rootMargin: "0px 0px -40px 0px" }
+      { threshold: 0, rootMargin: "0px 0px 200px 0px" }
     );
     revealEls.forEach(function (el) {
       observer.observe(el);
+    });
+
+    revealEls.forEach(function (el, i) {
+      setTimeout(function () {
+        el.classList.add("active");
+      }, 1200 + i * 15);
     });
   } else {
     revealEls.forEach(function (el) {
