@@ -23,6 +23,14 @@ module.exports = {
         growth: "#2F9E5C",
         attention: "#C9762E",
         detail: "#B4425A",
+        // WCAG AA-safe (4.5:1+ on the cream surface) text/icon variants of
+        // growth/attention — the base tones above pass fine for borders and
+        // large decorative fills but fall short (~3:1) as small body text.
+        "growth-ink": "#047857",
+        "attention-ink": "#92400E",
+        // Light amber for the dark "Applied AI" card — AA/AAA-safe against
+        // the primary-container navy background.
+        "attention-light": "#F2C078",
       },
       fontFamily: {
         sans: ["Inter", "sans-serif"],

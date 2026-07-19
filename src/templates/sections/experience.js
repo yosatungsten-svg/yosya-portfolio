@@ -12,9 +12,10 @@ function experience(content) {
     <div class="space-y-xxl md:space-y-[64px]">
       ${e.roles
         .map(
-          (r) => `
+          (r, i) => `
       <div class="grid md:grid-cols-12 gap-lg md:gap-xl reveal group">
-        <div class="md:col-span-3 border-t-2 ${accentBorderTop[r.accent]} pt-sm">
+        <div class="md:col-span-3 border-t-2 ${accentBorderTop[r.accent]} pt-sm relative">
+          <span class="hidden md:block font-serif text-headline-lg text-on-surface/[0.06] leading-none mb-sm select-none">0${i + 1}</span>
           <p class="font-sans text-label-md text-on-surface-variant mb-xs">${r.period}</p>
           <p class="font-sans text-title-md text-on-surface">${r.title}</p>
         </div>

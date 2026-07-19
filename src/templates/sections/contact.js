@@ -21,7 +21,7 @@ function contact(content) {
           <span class="w-10 h-10 rounded-control bg-growth/10 text-growth flex items-center justify-center shrink-0">${icons.phone}</span>
           <span>
             <span class="block font-sans text-label-md text-on-surface-variant">${c.phoneLabel}</span>
-            <span class="block font-sans text-title-md text-on-surface group-hover:text-growth transition-colors">${c.phone}</span>
+            <span class="block font-sans text-title-md text-on-surface group-hover:text-growth-ink transition-colors">${c.phone}</span>
           </span>
         </a>
         <div class="flex items-center gap-md">
@@ -47,7 +47,7 @@ function contact(content) {
     </div>
     <div class="md:col-span-5">
       <div class="bg-surface-container-low border border-outline-variant rounded-card p-xl h-full flex flex-col justify-center items-start">
-        <span class="inline-flex items-center gap-xs px-md py-xs rounded-full bg-growth/10 text-growth font-sans text-label-md mb-lg">
+        <span class="inline-flex items-center gap-xs px-md py-xs rounded-full bg-growth/10 text-growth-ink font-sans text-label-md mb-lg">
           <span class="w-1.5 h-1.5 rounded-full bg-growth animate-pulse"></span>
           ${c.availability}
         </span>

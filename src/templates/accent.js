@@ -1,9 +1,12 @@
 // Maps a semantic accent key (from content JSON) to the Tailwind classes
 // generated from the "Ledger" palette in tailwind.config.js.
+// Text/icon color on light surfaces — uses the AA-safe "-ink" variants for
+// growth/attention since their base tones read under 4.5:1 on the cream
+// background (trust/detail already clear AA at base tone).
 const accentText = {
   trust: "text-trust",
-  growth: "text-growth",
-  attention: "text-attention",
+  growth: "text-growth-ink",
+  attention: "text-attention-ink",
   detail: "text-detail",
 };
 
