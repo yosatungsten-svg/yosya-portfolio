@@ -1,0 +1,142 @@
+{
+  "lang": "id",
+  "htmlLang": "id",
+  "path": "/id/",
+  "altPath": "/",
+  "altLabel": "EN",
+  "meta": {
+    "title": "Yosya Yodya | Profesional Finance & Applied AI",
+    "description": "Yosya Yodya — 9+ tahun pengalaman di project accounting dan analisis keuangan, kini membangun automasi berbasis AI untuk alur kerja finance."
+  },
+  "nav": {
+    "brand": "YOSYA.",
+    "links": [
+      { "label": "Pengalaman", "href": "#experience" },
+      { "label": "Keahlian", "href": "#expertise" },
+      { "label": "Applied AI", "href": "#applied-ai" },
+      { "label": "Kontak", "href": "#contact" }
+    ],
+    "cta": "Hubungi saya"
+  },
+  "hero": {
+    "eyebrow": "FINANCE & APPLIED AI",
+    "name": "Yosya Yodya",
+    "subtitle": "Project Accounting & Analisis Keuangan, kini membangun automasi berbasis AI untuk alur kerja finance.",
+    "stats": [
+      { "value": "9+", "label": "Tahun" },
+      { "value": "4", "label": "Perusahaan" },
+      { "value": "3", "label": "Peran" }
+    ],
+    "ctaPrimary": { "label": "Hubungi saya", "href": "#contact" },
+    "ctaSecondary": { "label": "Lihat pengalaman", "href": "#experience" },
+    "photoAlt": "Potret Yosya Yodya"
+  },
+  "experience": {
+    "eyebrow": "2016 — SEKARANG",
+    "title": "Pengalaman",
+    "roles": [
+      {
+        "period": "Jul 2024 — Sekarang",
+        "title": "Project Accounting",
+        "company": "PT Toshiba Asia Pacific Indonesia",
+        "summary": "Mengarahkan arsitektur finansial proyek dan kepatuhan (compliance).",
+        "bullets": [
+          "Mengelola transaksi project accounting yang kompleks dengan presisi.",
+          "Menyusun laporan keuangan dan laporan performa yang komprehensif.",
+          "Mengawasi pembayaran bank dan operasional kepatuhan audit."
+        ],
+        "accent": "trust"
+      },
+      {
+        "period": "Feb 2020 — Nov 2023",
+        "title": "Accounting Supervisor",
+        "company": "PT Andiarta Muzizat (Ninja Express)",
+        "summary": "Memimpin operasional keuangan dan kompensasi tenaga kerja skala besar.",
+        "bullets": [
+          "Memimpin verifikasi payroll untuk tenaga kerja skala besar.",
+          "Mengarahkan pelaporan buku besar bulanan dan eksekusi jurnal.",
+          "Mengawasi tim analitis dalam peninjauan akun mendalam."
+        ],
+        "accent": "growth"
+      },
+      {
+        "period": "Sep 2018 — Jan 2020",
+        "title": "Accounting Supervisor",
+        "company": "PT Argenta Parakrama Artha",
+        "summary": "Mengoptimalkan alur kerja keuangan lewat riset manajemen strategis.",
+        "bullets": [
+          "Memberikan advisory keuangan berbasis data kepada manajemen senior.",
+          "Menyempurnakan protokol manajemen akuntansi internal.",
+          "Menjaga tata kelola data dan kerahasiaan secara ketat."
+        ],
+        "accent": "attention"
+      },
+      {
+        "period": "Feb 2016 — Sep 2018",
+        "title": "Senior Auditor",
+        "company": "PT Moores Rowland Indonesia (Mazars)",
+        "summary": "Evaluasi ketat terhadap pengendalian internal dan mitigasi risiko.",
+        "bullets": [
+          "Menyusun kertas kerja audit rinci lintas berbagai industri.",
+          "Melaksanakan pengujian ketat atas akurasi laporan keuangan.",
+          "Mengidentifikasi dan menyelesaikan celah pengendalian internal."
+        ],
+        "accent": "detail"
+      }
+    ]
+  },
+  "expertise": {
+    "title": "Keahlian",
+    "cards": [
+      { "icon": "chart", "title": "Analisis Keuangan", "desc": "Neraca, sintesis laba-rugi, dan pemodelan proyeksi ke depan.", "accent": "trust" },
+      { "icon": "shield", "title": "Audit & Assurance", "desc": "Audit kepatuhan internal/eksternal dengan standar yang ketat.", "accent": "detail" },
+      { "icon": "check", "title": "Rekonsiliasi", "desc": "Investigasi selisih dan penyelesaian akun secara teliti.", "accent": "attention" },
+      { "icon": "team", "title": "Kepemimpinan", "desc": "Mengarahkan dan membina tim akuntansi berkinerja tinggi.", "accent": "growth" },
+      { "icon": "doc", "title": "Pelaporan Strategis", "desc": "Narasi keuangan yang patuh regulasi untuk para stakeholder.", "accent": "trust" },
+      { "icon": "scale", "title": "Kepatuhan Pajak", "desc": "Menyelaraskan operasional dengan hukum keuangan yang terus berubah.", "accent": "detail" }
+    ],
+    "toolsTitle": "Sistem & Tools",
+    "tools": ["SAP FICO", "Advanced Excel (Expert)", "QuickBooks", "Accurate", "Enterprise ERP", "Power BI"],
+    "languagesTitle": "Bahasa",
+    "languages": [
+      { "name": "Bahasa Indonesia", "level": "Native", "percent": 100 },
+      { "name": "English", "level": "Professional Working", "percent": 80 }
+    ]
+  },
+  "appliedAi": {
+    "eyebrow": "SEDANG BERTRANSISI",
+    "title": "Applied AI in Practice",
+    "intro": "Selain 9 tahun di finance, saya sedang membangun jalur menuju Applied AI Engineering — menggunakan AI untuk menyelesaikan masalah nyata di domain finance, bukan sekadar teori.",
+    "card": {
+      "status": "Sistem privat — aktif berjalan",
+      "name": "Daily Finance Intelligence System",
+      "description": "Pipeline automasi berbasis Claude yang saya bangun sendiri, menghasilkan laporan keuangan harian — kurs mata uang, data pasar saham IHSG/global, dan berita ekonomi terkurasi — tersusun rapi dan terbit otomatis setiap hari.",
+      "badges": ["Automasi LLM", "Pelaporan Terstruktur", "Data Domain Finance"],
+      "footnote": "Studi kasus tersedia atas permintaan",
+      "footnoteHref": "mailto:yosayodya@gmail.com?subject=Daily%20Finance%20Intelligence%20System%20-%20Permintaan%20Studi%20Kasus"
+    }
+  },
+  "education": {
+    "title": "Pendidikan",
+    "school": "Bina Nusantara University",
+    "degree": "S1 Akuntansi (Bachelor of Accounting)",
+    "years": "2011 — 2015"
+  },
+  "contact": {
+    "title": "Kontak",
+    "intro": "Terbuka untuk peluang di bidang finance maupun applied AI. Cara tercepat menghubungi saya adalah lewat email.",
+    "emailLabel": "EMAIL",
+    "email": "yosayodya@gmail.com",
+    "phoneLabel": "TELEPON",
+    "phone": "+62 852 8125 7551",
+    "locationLabel": "LOKASI",
+    "location": "Jakarta, Indonesia",
+    "ctaEmail": "Kirim email",
+    "linkedinLabel": "LinkedIn"
+  },
+  "footer": {
+    "brand": "YOSYA.",
+    "copyright": "Hak cipta dilindungi.",
+    "backToTop": "Kembali ke atas"
+  }
+}

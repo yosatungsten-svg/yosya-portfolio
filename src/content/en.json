@@ -1,0 +1,142 @@
+{
+  "lang": "en",
+  "htmlLang": "en",
+  "path": "/",
+  "altPath": "/id/",
+  "altLabel": "ID",
+  "meta": {
+    "title": "Yosya Yodya | Finance Professional & Applied AI",
+    "description": "Yosya Yodya — 9+ years in project accounting and financial analysis, now building AI-driven automation for finance workflows."
+  },
+  "nav": {
+    "brand": "YOSYA.",
+    "links": [
+      { "label": "Experience", "href": "#experience" },
+      { "label": "Expertise", "href": "#expertise" },
+      { "label": "Applied AI", "href": "#applied-ai" },
+      { "label": "Contact", "href": "#contact" }
+    ],
+    "cta": "Get in touch"
+  },
+  "hero": {
+    "eyebrow": "FINANCE & APPLIED AI",
+    "name": "Yosya Yodya",
+    "subtitle": "Project Accounting & Financial Analysis, now building AI-driven automation for finance workflows.",
+    "stats": [
+      { "value": "9+", "label": "Years" },
+      { "value": "4", "label": "Companies" },
+      { "value": "3", "label": "Roles" }
+    ],
+    "ctaPrimary": { "label": "Get in touch", "href": "#contact" },
+    "ctaSecondary": { "label": "View experience", "href": "#experience" },
+    "photoAlt": "Portrait of Yosya Yodya"
+  },
+  "experience": {
+    "eyebrow": "2016 — PRESENT",
+    "title": "Experience",
+    "roles": [
+      {
+        "period": "Jul 2024 — Present",
+        "title": "Project Accounting",
+        "company": "PT Toshiba Asia Pacific Indonesia",
+        "summary": "Directing project financial architecture and compliance.",
+        "bullets": [
+          "Manage complex project accounting transactions with precision.",
+          "Prepare comprehensive financial statements and performance reports.",
+          "Oversee bank payments and audit compliance operations."
+        ],
+        "accent": "trust"
+      },
+      {
+        "period": "Feb 2020 — Nov 2023",
+        "title": "Accounting Supervisor",
+        "company": "PT Andiarta Muzizat (Ninja Express)",
+        "summary": "Led financial operations and workforce compensation at scale.",
+        "bullets": [
+          "Led payroll verification for a large-scale workforce.",
+          "Directed monthly ledger reporting and journal execution.",
+          "Supervised analytical teams in deep-dive accounts review."
+        ],
+        "accent": "growth"
+      },
+      {
+        "period": "Sep 2018 — Jan 2020",
+        "title": "Accounting Supervisor",
+        "company": "PT Argenta Parakrama Artha",
+        "summary": "Optimized financial workflows through strategic management research.",
+        "bullets": [
+          "Provided data-driven financial advisory to senior leadership.",
+          "Refined internal accounting management protocols.",
+          "Maintained strict data governance and confidentiality."
+        ],
+        "accent": "attention"
+      },
+      {
+        "period": "Feb 2016 — Sep 2018",
+        "title": "Senior Auditor",
+        "company": "PT Moores Rowland Indonesia (Mazars)",
+        "summary": "Rigorous evaluation of internal controls and risk mitigation.",
+        "bullets": [
+          "Authored detailed audit working papers across diverse industries.",
+          "Executed rigorous testing of financial statement accuracy.",
+          "Identified and resolved internal control vulnerabilities."
+        ],
+        "accent": "detail"
+      }
+    ]
+  },
+  "expertise": {
+    "title": "Expertise",
+    "cards": [
+      { "icon": "chart", "title": "Financial Analysis", "desc": "Balance sheets, P&L synthesis, and forward-looking modeling.", "accent": "trust" },
+      { "icon": "shield", "title": "Audit & Assurance", "desc": "Internal/external compliance auditing with exacting standards.", "accent": "detail" },
+      { "icon": "check", "title": "Reconciliation", "desc": "Meticulous variance investigation and account resolution.", "accent": "attention" },
+      { "icon": "team", "title": "Leadership", "desc": "Directing and mentoring high-performance accounting teams.", "accent": "growth" },
+      { "icon": "doc", "title": "Strategic Reporting", "desc": "Regulatory-compliant financial narratives for stakeholders.", "accent": "trust" },
+      { "icon": "scale", "title": "Tax Compliance", "desc": "Aligning operations with evolving jurisdictional financial law.", "accent": "detail" }
+    ],
+    "toolsTitle": "Systems & Tools",
+    "tools": ["SAP FICO", "Advanced Excel (Expert)", "QuickBooks", "Accurate", "Enterprise ERP", "Power BI"],
+    "languagesTitle": "Languages",
+    "languages": [
+      { "name": "Bahasa Indonesia", "level": "Native", "percent": 100 },
+      { "name": "English", "level": "Professional Working", "percent": 80 }
+    ]
+  },
+  "appliedAi": {
+    "eyebrow": "IN TRANSITION",
+    "title": "Applied AI in Practice",
+    "intro": "Alongside 9 years in finance, I'm building toward Applied AI Engineering — using AI to solve real finance-domain problems, not just studying it in theory.",
+    "card": {
+      "status": "Private system — actively running",
+      "name": "Daily Finance Intelligence System",
+      "description": "A self-built, Claude-powered automation pipeline that generates daily financial reports — currency rates, IHSG/global market data, and curated economic news — structured and published automatically every day.",
+      "badges": ["LLM Automation", "Structured Reporting", "Finance Domain Data"],
+      "footnote": "Case study available on request",
+      "footnoteHref": "mailto:yosayodya@gmail.com?subject=Daily%20Finance%20Intelligence%20System%20-%20Case%20Study%20Request"
+    }
+  },
+  "education": {
+    "title": "Education",
+    "school": "Bina Nusantara University",
+    "degree": "S1 Akuntansi (Bachelor of Accounting)",
+    "years": "2011 — 2015"
+  },
+  "contact": {
+    "title": "Contact",
+    "intro": "Open to finance and applied-AI opportunities. The fastest way to reach me is email.",
+    "emailLabel": "EMAIL",
+    "email": "yosayodya@gmail.com",
+    "phoneLabel": "PHONE",
+    "phone": "+62 852 8125 7551",
+    "locationLabel": "LOCATION",
+    "location": "Jakarta, Indonesia",
+    "ctaEmail": "Email me",
+    "linkedinLabel": "LinkedIn"
+  },
+  "footer": {
+    "brand": "YOSYA.",
+    "copyright": "All rights reserved.",
+    "backToTop": "Back to top"
+  }
+}
