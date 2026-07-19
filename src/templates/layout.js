@@ -70,7 +70,7 @@ function renderPage(content) {
 <meta name="description" content="${content.meta.description}" />
 <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
 <link rel="alternate" hreflang="en" href="/" />
-<link rel="alternate" hreflang="id" href="/id/" />
+<link rel="alternate" hreflang="id" href="/id" />
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,500&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="/assets/style.css" />
 </head>
